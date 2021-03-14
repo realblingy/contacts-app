@@ -1,13 +1,19 @@
 import React from 'react';
+// Routing
 import {
   BrowserRouter as Router,
   Switch,
   Route,
 } from "react-router-dom";
+// Styling
 import './App.css';
+// Pages
 import Home from './pages/Home';
 import Profile from './pages/Profile';
 
+/**
+ * Controls the routing of the application
+ */
 function App() {
 
   return (
